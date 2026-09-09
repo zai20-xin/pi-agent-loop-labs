@@ -1,0 +1,30 @@
+{
+  "name": "pi-agent-loop-labs",
+  "version": "1.0.0",
+  "description": "Hands-on experiments for understanding pi-agent's agent-loop core",
+  "type": "module",
+  "scripts": {
+    "test": "npx tsx experiments/run-all.ts",
+    "test:1": "npx tsx experiments/experiment-1-no-tool.ts",
+    "test:2": "npx tsx experiments/experiment-2-two-tools.ts",
+    "test:3": "npx tsx experiments/experiment-3-before-tool-call.ts",
+    "test:4": "npx tsx experiments/experiment-4-after-tool-call.ts",
+    "test:5": "npx tsx experiments/experiment-5-should-stop.ts",
+    "test:6": "npx tsx experiments/experiment-6-chain-dependency.ts",
+    "test:7": "npx tsx experiments/experiment-7-loop-continue.ts",
+    "test:8": "npx tsx experiments/experiment-8-truncation.ts",
+    "test:9": "npx tsx experiments/experiment-9-seq-vs-parallel.ts",
+    "test:10": "npx tsx experiments/experiment-10-steering.ts",
+    "test:11": "npx tsx experiments/experiment-11-follow-up.ts",
+    "test:12": "npx tsx experiments/experiment-12-hot-switch.ts"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "keywords": ["agent", "llm", "pi-agent", "agent-loop", "tutorial"],
+  "license": "MIT"
+}
