@@ -7,18 +7,18 @@
 import { execSync } from "child_process";
 
 const experiments = [
-  { file: "experiment-1-no-tool.ts", name: "不调工具" },
-  { file: "experiment-2-two-tools.ts", name: "调2个工具" },
-  { file: "experiment-3-before-tool-call.ts", name: "拦截工具" },
-  { file: "experiment-4-after-tool-call.ts", name: "改写结果" },
-  { file: "experiment-5-should-stop.ts", name: "提前停止" },
-  { file: "experiment-6-chain-dependency.ts", name: "链式依赖" },
-  { file: "experiment-7-loop-continue.ts", name: "续跑" },
-  { file: "experiment-8-truncation.ts", name: "截断作废" },
-  { file: "experiment-9-seq-vs-parallel.ts", name: "顺序vs并行" },
-  { file: "experiment-10-steering.ts", name: "插话" },
-  { file: "experiment-11-follow-up.ts", name: "追加消息" },
-  { file: "experiment-12-hot-switch.ts", name: "热切换模型" },
+  { file: "L03-01-no-tool.ts", name: "不调工具" },
+  { file: "L03-02-two-tools.ts", name: "调2个工具" },
+  { file: "L03-03-before-tool-call.ts", name: "拦截工具" },
+  { file: "L03-04-after-tool-call.ts", name: "改写结果" },
+  { file: "L03-05-should-stop.ts", name: "提前停止" },
+  { file: "L03-06-chain-dependency.ts", name: "链式依赖" },
+  { file: "L03-07-loop-continue.ts", name: "续跑" },
+  { file: "L03-08-truncation.ts", name: "截断作废" },
+  { file: "L03-09-seq-vs-parallel.ts", name: "顺序vs并行" },
+  { file: "L03-10-steering.ts", name: "插话" },
+  { file: "L03-11-follow-up.ts", name: "追加消息" },
+  { file: "L03-12-hot-switch.ts", name: "热切换模型" },
 ];
 
 console.log("=".repeat(60));
