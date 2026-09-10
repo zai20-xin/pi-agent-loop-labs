@@ -117,9 +117,26 @@ pi-agent-loop-labs/
 │   ├── types.ts           # AgentLoopConfig, AgentEvent, AgentTool
 │   └── agent-loop.ts      # Core loop
 ├── experiments/
-│   ├── experiment-1-12    # L03 实验
-│   ├── L02-L10            # 课程实验
+│   ├── L02/               # AgentTool 接口实验
+│   ├── L03/               # AgentLoop 12 个实验
+│   ├── L04/               # Agent 包装器实验
+│   ├── L05/               # pi-ai 类型系统实验
+│   ├── L06/               # 工具系统实验
+│   ├── L07/               # 会话树实验
+│   ├── L08/               # 上下文压缩实验
+│   ├── L09/               # 扩展系统实验
+│   ├── L10/               # TUI 差分渲染实验
 │   └── run-all.ts         # 批量运行器
+├── lectures/
+│   ├── L02-AgentTool接口.md
+│   ├── L03-AgentLoop主循环.md
+│   ├── L04-Agent包装器.md
+│   ├── L05-pi-ai类型系统.md
+│   ├── L06-工具系统.md
+│   ├── L07-会话树.md
+│   ├── L08-上下文压缩.md
+│   ├── L09-扩展系统.md
+│   └── L10-TUI差分渲染.md
 ├── mini-pi/
 │   └── mini-pi.ts         # 毕业设计
 ├── package.json
