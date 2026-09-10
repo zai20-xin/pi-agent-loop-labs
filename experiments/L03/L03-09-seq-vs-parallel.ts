@@ -4,7 +4,7 @@
  * 场景：同一个 LLM 返回两个 toolCall，分别用 sequential 和 parallel 模式执行
  *       对比事件顺序的差异
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/experiment-9-seq-vs-parallel.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L03/L03-09-seq-vs-parallel.ts
  */
 
 import {

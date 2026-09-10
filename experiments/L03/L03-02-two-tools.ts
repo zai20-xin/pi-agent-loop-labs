@@ -5,7 +5,7 @@
  *   第1次：返回两个 toolCall（天气 + 翻译）
  *   第2次：返回最终文本
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/experiment-2-two-tools.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L03/L03-02-two-tools.ts
  */
 
 import {

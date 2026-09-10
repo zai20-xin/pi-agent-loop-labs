@@ -4,7 +4,7 @@
  * 场景：agent 本来要停了，但发现还有排队消息就继续跑
  *       与插话不同：追加不打断当前工作流，只续命
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/experiment-11-follow-up.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L03/L03-11-follow-up.ts
  */
 
 import {

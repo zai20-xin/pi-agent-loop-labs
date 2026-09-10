@@ -6,7 +6,7 @@
  * 2. prompt / subscribe / abort 三个核心方法
  * 3. 事件订阅与状态管理
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/L04-agent-wrapper.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L04/L04-agent-wrapper.ts
  */
 
 import {

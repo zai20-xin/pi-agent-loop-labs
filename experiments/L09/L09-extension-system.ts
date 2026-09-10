@@ -7,7 +7,7 @@
  * 3. 自定义工具注册
  * 4. 状态管理（内存态 vs 持久态）
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/L09-extension-system.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L09/L09-extension-system.ts
  */
 
 // ==================== 1. 模拟扩展 API ====================

@@ -5,7 +5,7 @@
  *   原版：16个事件，4条消息，2轮
  *   本版：8个事件，2条消息，1轮
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/experiment-1-no-tool.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L03/L03-01-no-tool.ts
  */
 
 import {

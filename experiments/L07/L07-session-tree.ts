@@ -7,7 +7,7 @@
  * 3. 树遍历还原线性序列
  * 4. 分支与回退机制
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/L07-session-tree.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L07/L07-session-tree.ts
  */
 
 // ==================== 1. 定义消息类型 ====================

@@ -1,7 +1,7 @@
 /**
  * 一次性跑完所有12个实验
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx experiments/run-all.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/run-all.ts
  */
 
 import { execSync } from "child_process";

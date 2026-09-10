@@ -8,7 +8,7 @@
  *   第1次：调 exec 工具
  *   第2次：看到插话后，调整回复
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/experiment-10-steering.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L03/L03-10-steering.ts
  */
 
 import {

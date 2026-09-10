@@ -6,7 +6,7 @@
  * 2. 行级差分：只更新变化的行
  * 3. 无闪烁：同步输出
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/L10-tui-diff.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L10/L10-tui-diff.ts
  */
 
 // ==================== 1. 组件接口 ====================

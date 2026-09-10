@@ -7,7 +7,7 @@
  * 3. content 与 details 双轨制
  * 4. 截断策略
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/L06-tool-system.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L06/L06-tool-system.ts
  */
 
 import { Type, type Static } from "../../pi/node_modules/typebox/build/index.mjs";

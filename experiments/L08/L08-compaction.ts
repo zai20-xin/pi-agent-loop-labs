@@ -7,7 +7,7 @@
  * 3. 迭代式压缩
  * 4. CompactionEntry 结构
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/L08-compaction.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L08/L08-compaction.ts
  */
 
 // ==================== 1. 定义类型 ====================

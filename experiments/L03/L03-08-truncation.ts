@@ -8,7 +8,7 @@
  *   第1次：返回 toolCall，但 stopReason="length"（截断）
  *   第2次：返回最终文本
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/experiment-8-truncation.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L03/L03-08-truncation.ts
  */
 
 import {

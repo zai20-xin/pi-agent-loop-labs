@@ -11,7 +11,7 @@
  *   - 给 content 加一行审计日志
  *   - 把 details 里的 temp 改成 Fahrenheit
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/experiment-4-after-tool-call.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L03/L03-04-after-tool-call.ts
  */
 
 import {

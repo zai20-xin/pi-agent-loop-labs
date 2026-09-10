@@ -9,7 +9,7 @@
  *
  * 注意：本实验不需要真实 API key，只验证类型结构
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/L05-pi-ai-types.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L05/L05-pi-ai-types.ts
  */
 
 import type {

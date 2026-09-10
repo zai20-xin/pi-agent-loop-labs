@@ -59,8 +59,8 @@ while (true) {
 
 **事件序列**：
 1. `turn_start` — 开始一轮
-2. `llm_stream_start` — 开始流式接收 LLM 响应
-3. `llm_stream_end` — 收到完整响应
+2. `message_start` — 新消息开始
+3. `message_end` — 消息结束
 4. `turn_end` — 本轮结束
 
 **关键点**：
@@ -86,7 +86,7 @@ LLM → "北京今天25°C，sunny！"
 2. `tool_execution_start` (translate)
 3. `tool_execution_end` (getWeather) — 注意：不一定按 start 顺序
 4. `tool_execution_end` (translate)
-5. `tool_execution_result` — 结果按声明序排列
+5. `tool_execution_end` — 结果按声明序排列
 
 **关键点**：
 - 两个工具**并行执行**（Promise.all）
@@ -347,7 +347,7 @@ prepareNextTurn: async (ctx) => {
 │  └──────┬──────┘                                           │
 │         ▼                                                  │
 │  ┌─────────────┐    ┌──────────────┐                       │
-│  │ 调用 LLM    │───▶│ llm_stream   │                       │
+│  │ 调用 LLM    │───▶│ message      │                       │
 │  └──────┬──────┘    └──────┬───────┘                       │
 │         ▼                  ▼                               │
 │  ┌─────────────┐    ┌──────────────┐                       │
@@ -422,15 +422,15 @@ prepareNextTurn: async (ctx) => {
 **答案**：
 ```
 1. turn_start
-2. llm_stream_start
-3. llm_stream_end
+2. message_start
+3. message_end
 4. tool_execution_start (getWeather)
 5. tool_execution_start (translate)
 6. tool_execution_end (getWeather)
 7. tool_execution_end (translate)
-8. tool_execution_result
-9. llm_stream_start
-10. llm_stream_end
+8. tool_execution_end
+9. message_start
+10. message_end
 11. turn_end
 ```
 

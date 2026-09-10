@@ -4,7 +4,7 @@
  * 场景：第1轮用普通模型，第2轮切换到"更强"的模型
  *       prepareNextTurn 在 turn_end 后、下一轮开始前执行
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/experiment-12-hot-switch.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L03/L03-12-hot-switch.ts
  */
 
 import {

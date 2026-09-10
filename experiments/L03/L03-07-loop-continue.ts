@@ -7,7 +7,7 @@
  *   - context.messages 非空
  *   - 最后一条消息不能是 assistant（否则 LLM API 会拒绝）
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/experiment-7-loop-continue.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L03/L03-07-loop-continue.ts
  */
 
 import {

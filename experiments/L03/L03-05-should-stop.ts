@@ -8,7 +8,7 @@
  *   第2次：调 translate（应该被 shouldStopAfterTurn 拦住）
  *   第3次：（不会执行，因为第2轮后就停了）
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/experiment-5-should-stop.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L03/L03-05-should-stop.ts
  */
 
 import {

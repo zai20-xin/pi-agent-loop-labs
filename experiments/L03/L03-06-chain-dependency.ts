@@ -10,7 +10,7 @@
  * 这就是真实 agent 的核心模式：
  *   LLM 思考 → 调工具 → 看结果 → 再思考 → 再调工具 → ...
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/experiment-6-chain-dependency.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L03/L03-06-chain-dependency.ts
  */
 
 import {

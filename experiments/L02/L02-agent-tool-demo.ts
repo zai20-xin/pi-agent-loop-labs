@@ -7,7 +7,7 @@
  * 3. execute 函数签名正确
  * 4. 返回值符合 AgentToolResult 结构
  *
- * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-course/experiments/L02-agent-tool-demo.ts
+ * 运行：cd /Users/zhangwei/workspace/AI/pi && npx tsx ../pi-agent-loop-labs/experiments/L02/L02-agent-tool-demo.ts
  */
 
 import { Type, type Static } from "../../pi/node_modules/typebox/build/index.mjs";
