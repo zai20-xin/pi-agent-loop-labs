@@ -19,6 +19,10 @@ npm run test:1
 
 ## 你将学到什么
 
+### 全景地图（L01）
+
+Pi Agent 的四层积木架构：pi-ai → agent-core → coding-agent → TUI。
+
 ### AgentLoop 实验（L03）
 
 | 实验 | 主题 | 核心概念 |
@@ -51,7 +55,7 @@ npm run test:1
 
 ### 毕业设计
 
-**mini-Pi**（`mini-pi/mini-pi.ts`）：约 400 行代码实现：
+**mini-Pi**（`mini-pi/mini-pi.ts`）：约 500 行代码实现：
 - ✅ 最小循环（对应 L03）
 - ✅ 工具系统（对应 L02/L06）
 - ✅ 会话持久化 + 树（对应 L07）
@@ -128,6 +132,7 @@ pi-agent-loop-labs/
 │   ├── L10/               # TUI 差分渲染实验
 │   └── run-all.ts         # 批量运行器
 ├── lectures/
+│   ├── L01-全景地图.md
 │   ├── L02-AgentTool接口.md
 │   ├── L03-AgentLoop主循环.md
 │   ├── L04-Agent包装器.md
